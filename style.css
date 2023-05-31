@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(219, 215, 217);
+}
+.flex-con{
+    width: 450px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(171, 218, 202,0.7);
+    border: 1px solid rgb(15, 20, 18);
+    border-radius: 9px;
+    box-shadow: 5px 10px rgb(42, 32, 51);
+}
+div>button{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: medium;
+}
+div>button:hover{
+    background-color: rgb(49, 49, 71);
+    color: white;
+    box-shadow: 2px 3px rgb(67, 65, 104);
+    cursor: pointer;
+    
+}
+
+div>button:focus{
+    background-color: rgb(49, 49, 71);
+    color: rgb(232, 235, 238);
+    box-shadow: 5px 5px rgb(69, 112, 110);
+    font-size:x-large;
+}
+
+#reason{
+    display: none;
+    margin-left: 10px;
+}
+#submit{
+    background-color: rgb(94, 168, 119);
+    color: white;
+    font-size: medium;
+}
